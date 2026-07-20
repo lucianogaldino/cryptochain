@@ -53,13 +53,14 @@ h1, h2, h3, h4 {
     color: #00BFFF;
 }
 
+.stTextInput label {
+    color: #00BFFF !important;
+    font-weight: bold;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown(
-    "<h3 style='color:#00BFFF'>💻 Digite sua resposta:</h3>",
-    unsafe_allow_html=True
-)
 
 resposta = st.text_input("", label_visibility="collapsed")
 
@@ -114,7 +115,7 @@ fases = {
         "desafio":
             "59 mod 11",
 
-        "resposta": 3,
+        "resposta": 4,
 
         "missao":
             "Descubra o resto correto da divisão para "
@@ -132,7 +133,7 @@ fases = {
         "desafio":
             "239 mod 13",
 
-        "resposta": 3,
+        "resposta": 5,
 
         "missao":
             "Calcule corretamente o identificador modular para "
