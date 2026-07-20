@@ -285,7 +285,7 @@ st.sidebar.markdown("### 💾 Hash Atual")
 st.sidebar.code(gerar_hash())
 
 st.sidebar.progress(
-    st.session_state.fase / 10
+    min(st.session_state.fase, 10) / 10
 )
 
 # =====================================================
