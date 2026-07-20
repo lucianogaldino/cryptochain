@@ -56,6 +56,13 @@ h1, h2, h3, h4 {
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown(
+    "<h3 style='color:#00BFFF'>💻 Digite sua resposta:</h3>",
+    unsafe_allow_html=True
+)
+
+resposta = st.text_input("", label_visibility="collapsed")
+
 # =====================================================
 # SESSION STATE
 # =====================================================
@@ -105,7 +112,7 @@ fases = {
             "parcialmente corrompido durante um ataque.",
 
         "desafio":
-            "58 mod 11",
+            "59 mod 11",
 
         "resposta": 3,
 
@@ -123,7 +130,7 @@ fases = {
             "Milhares de transações chegaram ao servidor principal.",
 
         "desafio":
-            "237 mod 13",
+            "239 mod 13",
 
         "resposta": 3,
 
