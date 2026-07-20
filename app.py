@@ -248,7 +248,7 @@ fases = {
 
        "desafio": r"11^{35}\bmod17",
 
-        "resposta": 3,
+        "resposta": 5,
 
         "missao":
             "Calcule corretamente a exponenciação modular para autenticar a assinatura.",
@@ -264,7 +264,7 @@ fases = {
 
         "desafio": r"(9^{12}+14\cdot31)\bmod19",
 
-        "resposta": 10,
+        "resposta": 4,
 
         "missao":
             "Resolva o desafio criptográfico final para restaurar definitivamente a blockchain.",
