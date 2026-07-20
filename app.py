@@ -71,6 +71,12 @@ if "vidas" not in st.session_state:
 
 if "fase_liberada" not in st.session_state:
     st.session_state.fase_liberada = False
+    
+def reiniciar_jogo():
+    st.session_state.fase = 1
+    st.session_state.pontos = 0
+    st.session_state.vidas = 5
+    st.session_state.fase_liberada = False
 
 # =====================================================
 # HASH FICTÍCIO
@@ -288,6 +294,10 @@ st.sidebar.progress(
     min(st.session_state.fase, 10) / 10
 )
 
+if st.sidebar.button("🔄 Reiniciar jogo"):
+    reiniciar_jogo()
+    st.rerun()
+    
 # =====================================================
 # GAME OVER
 # =====================================================
@@ -328,7 +338,11 @@ if st.session_state.fase > 10:
         st.success(
             "🥈 RANK B — OPERADOR DE SEGURANÇA"
         )
-
+        
+    if st.button("🔄 Jogar novamente"):
+        reiniciar_jogo()
+        st.rerun()
+        
     st.stop()
 
 # =====================================================
