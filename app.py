@@ -150,7 +150,7 @@ fases = {
         "historia":
             "Dois nós da blockchain discordam sobre um bloco.",
 
-        "desafio": r"145 \equiv 28 \pmod{13}"
+        "desafio": r"145 \equiv 28 \pmod{13}",
 
         "tipo": "bool",
 
