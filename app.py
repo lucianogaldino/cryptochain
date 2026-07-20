@@ -168,7 +168,7 @@ fases = {
 
         "tipo": "bool",
 
-        "resposta": "Não",
+        "resposta": "Sim",
 
         "missao":
             "Verifique se ambos os nós realmente armazenam o mesmo bloco.",
