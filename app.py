@@ -168,7 +168,7 @@ fases = {
         "historia":
             "A chave pública armazenada está reduzida módulo 9.",
 
-        "desafio": r"x \equiv 38 \pmod{9}"
+        "desafio": r"x \equiv 38 \pmod{9}",
 
         "resposta": 2,
 
@@ -184,7 +184,7 @@ fases = {
         "historia":
             "Dois blocos foram unidos durante a sincronização da rede.",
 
-        "desafio": r"(47+86)\bmod17"
+        "desafio": r"(47+86)\bmod17",
 
         "resposta": 14,
 
@@ -200,7 +200,7 @@ fases = {
         "historia":
             "Um contrato inteligente executou uma multiplicação modular.",
 
-        "desafio": r"19\times37\bmod23"
+        "desafio": r"19\times37\bmod23",
 
         "resposta": 13,
 
@@ -216,7 +216,7 @@ fases = {
         "historia":
             "O minerador encontrou um possível nonce.",
 
-        "desafio": r"7^{8}\bmod13"
+        "desafio": r"7^{8}\bmod13",
         
         "resposta": 3,
 
@@ -232,7 +232,7 @@ fases = {
         "historia":
             "Uma assinatura digital utiliza exponenciação modular.",
 
-       "desafio": r"11^{35}\bmod17"
+       "desafio": r"11^{35}\bmod17",
 
         "resposta": 3,
 
@@ -248,7 +248,7 @@ fases = {
         "historia":
             "O último bloco da blockchain foi localizado.",
 
-        "desafio": r"(9^{12}+14\cdot31)\bmod19"
+        "desafio": r"(9^{12}+14\cdot31)\bmod19",
 
         "resposta": 10,
 
