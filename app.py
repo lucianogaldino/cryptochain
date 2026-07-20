@@ -135,7 +135,7 @@ fases = {
             "O hash original foi reduzido usando congruência modular.",
 
         "desafio":
-            "94 ≡ ? (mod 17)",
+            st.latex(r"94 \equiv \; ? \pmod{17}"),
 
         "resposta": 9,
 
