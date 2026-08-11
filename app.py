@@ -246,9 +246,9 @@ fases = {
         "historia":
             "Uma assinatura digital utiliza exponenciação modular.",
 
-       "desafio": r"11^{35}\bmod17",
+       "desafio": r"11^{20}\bmod12",
 
-        "resposta": 5,
+        "resposta": 1,
 
         "missao":
             "Calcule corretamente a exponenciação modular para autenticar a assinatura.",
