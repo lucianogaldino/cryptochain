@@ -262,9 +262,9 @@ fases = {
         "historia":
             "O último bloco da blockchain foi localizado.",
 
-        "desafio": r"(9^{12}+14\cdot31)\bmod19",
+        "desafio": r"(9^{2}+14\cdot31)\bmod19",
 
-        "resposta": 4,
+        "resposta": 2,
 
         "missao":
             "Resolva o desafio criptográfico final para restaurar definitivamente a blockchain.",
