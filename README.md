@@ -1,2 +1,2 @@
 # cryptochain
-jogo sobre aritmética modelar
+jogo sobre aritmética modular
